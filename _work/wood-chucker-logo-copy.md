@@ -1,5 +1,5 @@
 ---
-title: Wood Chucker Logo-(copy)
+title: Oregon State Athletics
 description: A website for doodling
 thumbnail_image: "/assets/images/punch_clock_all_screens.png"
 image: "/assets/images/punch_clock_all_screens.png"
