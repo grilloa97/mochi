@@ -18,7 +18,7 @@ during my time at Oregon State University, I created promotional deliverables fo
 
 I take my craft very seriously, I don't stand behind a design I don't support
 
-i'm bi I have ADHD and daddy issues, please hire my dark horse that's like 8-% of the characters you make stories about
+i'm bi I have ADHD and daddy issues, please hire my dark horse that's like 80% of the characters you make stories about
 
 Logo design and branding
 
