@@ -10,10 +10,13 @@ fields:
   label: description
 - type: file
   name: thumbnail_image
-  label: thumbnail_image
-- type: textarea
-  name: image
+  label: thumbnail
+- name: image
+  type: file
+  config:
+    maxSize: 64
   label: image
+  description: hero image
 - type: field_group_list
   name: contribution
   label: contribution
@@ -21,6 +24,18 @@ fields:
   - type: text
     name: item
     label: item
-- type: text
-  name: card_size
-  label: card_size
+- name: card_size
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - normal
+    - large
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: card size
+  description: how large card appears on home page
