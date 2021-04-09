@@ -39,3 +39,5 @@ fields:
       path: 
   label: card size
   description: how large card appears on home page
+pages:
+- _work/download-this-theme.md
