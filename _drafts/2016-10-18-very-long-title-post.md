@@ -1,8 +1,8 @@
 ---
 title: For Example of very Long Title Would Be Typography Elements in One
 updated: 2016-10-18 23:37
----
 
+---
 **NOTE:** This markdown cheatsheet is a typography demo for this theme. Check out this post to learn more about this markdown usage when you want to get started with this theme. Enjoy!
 
 ## Typography Elements in One
@@ -29,7 +29,7 @@ Let's start with a informative paragraph. **This text is bolded.** But not this 
 
 ## Footnote
 
-Let's say you have text that you want to refer with a footnote, you can do that too! This is an example for the footnote number one [^1]. You can even add more footnotes, with link! [^2]
+Let's say you have text that you want to refer with a footnote, you can do that too! This is an example for the footnote number one \[^1\]. You can even add more footnotes, with link! \[^2\]
 
 <div class="divider"></div>
 
@@ -47,8 +47,12 @@ Let's say you have text that you want to refer with a footnote, you can do that 
 2. Second item
 
 * Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+
+
+* Or minuses
+
+
+* Or pluses
 
 <div class="divider"></div>
 
@@ -64,30 +68,27 @@ s = "Python syntax highlighting"
 print s
 ```
 
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
+    No language indicated, so no syntax highlighting.
+    But let's throw in a <b>tag</b>.
 
 <div class="divider"></div>
-
 
 ## Table
 
 ### Table 1: With Alignment
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Tables | Are | Cool |
+| --- | :---: | ---: |
+| col 3 is | right-aligned | $1600 |
+| col 2 is | centered | $12 |
+| zebra stripes | are neat | $1 |
 
 ### Table 2: With Typography Elements
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+| Markdown | Less | Pretty |
+| --- | --- | --- |
+| Still | renders | nicely |
+| 1 | 2 | 3 |
 
 <div class="divider"></div>
 
@@ -101,9 +102,9 @@ The HTML `<hr>` element is for creating a "thematic break" between paragraph-lev
 
 renders to:
 
-___
+***
 
----
+***
 
 ***
 
@@ -125,6 +126,5 @@ ___
 
 {% include caption.html sideBySide=true url="https://images.unsplash.com/photo-1508108712903-49b7ef9b1df8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80" description="Pain delle Betulle, Italy" %}
 
-
-[^1]: Footnote number one yeah baby! Long sentence test of footnote to see how the words are wrapping between each other. Might overflowww!
-[^2]: A footnote you can link to - [click here!](#)
+\[^1\]: Footnote number one yeah baby! Long sentence test of footnote to see how the words are wrapping between each other. Might overflowww!
+\[^2\]: A footnote you can link to - [click here!](#)
