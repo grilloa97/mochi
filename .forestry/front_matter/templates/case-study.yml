@@ -1,0 +1,26 @@
+---
+label: Case Study
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: file
+  name: thumbnail_image
+  label: thumbnail_image
+- type: textarea
+  name: image
+  label: image
+- type: field_group_list
+  name: contribution
+  label: contribution
+  fields:
+  - type: text
+    name: item
+    label: item
+- type: text
+  name: card_size
+  label: card_size
