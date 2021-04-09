@@ -1,14 +1,14 @@
 ---
 layout: about
 title: About
-primary_button: 
-    - label: Email me
-    - url: mailto:hello@feyder.design"
-secondary_button: 
-    - label: Download Resume
-    - url: /assets/resume_feyder.pdf
----
+primary_button:
+- label: Email me
+- url: mailto:hello@feyder.design"
+secondary_button:
+- label: ''
+- label: Download Resume
 
+---
 Currently working with CMD Agency as a studio designer.
 
 While interface design is the core of my expertise, experience in front-end development and traditional graphic round out my perspective. I have experience managing multi-stakeholder creative processes and am self-motivated but able to adapt to different team structures. Based in Oregon.
