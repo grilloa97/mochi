@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<article>
+
+	<div class="center">
+		<h1 class="title">{{ page.title }}</h1>
+		<p>
+			{% for contribution in page.contribution%}
+				{{ contribution.item }} 
+				{% if forloop.last %}{% else %} • {% endif %}
+			{% endfor %}
+		</p>
+	</div>
+
+	<div class="divider"></div>
+
+	{{ content }}
+
+</article>

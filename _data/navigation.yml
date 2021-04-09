@@ -1,0 +1,9 @@
+---
+- page: About
+  url: "/about"
+- page: LinkedIn
+  url: https://www.linkedin.com/in/derek-liu-design/
+- page: Instagram
+  url: https://www.instagram.com/derekliu.design
+- page: Dribbble
+  url: https://dribbble.com/derek-liu

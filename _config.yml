@@ -1,0 +1,50 @@
+# Site Info
+title:              "Andi Grillo"
+description:        "Andi is a visual designer and illustrator that specializes in clean layouts, simple designs, and playful spot illustrations. "
+author_name:        "Andi Grillo" # change this to your name
+
+# Site Settings
+url:                 # main url
+baseurl:            
+permalink:          /:title # Post permalink
+mathjax:            true  # enables support for mathjax - set to 'false' to disable
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+collections:
+  work:
+    output: true
+    permalink: /work/:path/
+
+
+defaults:
+  - scope:
+      path:         ""
+    values:
+      layout:       "null"
+  - scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  - scope:
+      type:         "posts"
+    values:
+      layout:       "post"
+  - scope:
+      path: ""
+      type: "work"
+    values:
+      layout: "work"

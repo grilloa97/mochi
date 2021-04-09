@@ -1,0 +1,38 @@
+---
+layout: default
+description: Andi is a visual designer and illustrator that specializes in clean layouts, simple designs, and playful spot illustrations. 
+featuredlinks:
+- link: About me
+  url: "/About"
+- link: Resume
+  url: "/assets/derek_liu_resume.pdf"
+---
+
+<section>
+	<h1 class="heroText"> {{ page.description }}</h1>
+	{% if page.featuredlinks.size > 1 %}
+	<ul class="heroNav">
+	{% for featuredlinks in page.featuredlinks %}
+		<li>
+    		<a class="ink7 mr4 pb2 text-decoration-none hover-underline t3" href="{{ featuredlinks.url  }}">{{ featuredlinks.link }}</a>
+		</li>
+    {% endfor %}
+	</ul>
+	{% endif %}
+
+
+	<div class="casestudyGrid">
+		{% for work in site.work %}
+<a href="{{work.url}}" 
+	class="casestudy
+	{% if work.card_size == 'large' %} large {% endif %}">
+	<div>
+	<h3>{{ work.title }}</h3>
+	<p class="description">{{ work.description }}</p>
+	</div>
+	<img src="{{ work.thumbnail_image }}" alt=" {{ work.title }}">
+</a>
+{% endfor %}
+	</div>
+
+</section>

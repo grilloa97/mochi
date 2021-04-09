@@ -1,0 +1,34 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<div style="margin-top: 1rem;">
+
+    {% capture label %} {{page.primary_button[0].label}} {% endcapture %}
+    {% capture url %} {{page.primary_button[0].url}} {% endcapture %}
+    {% include button.liquid label=label url=url %}
+  
+    {% capture label %} {{page.secondary_button[0].label}} {% endcapture %}
+    {% capture url %} {{page.secondary_button[0].url}} {% endcapture %}
+    {% include button.liquid label=label url=url %}
+  
+  </div>
+
+{% if site.posts.size > 0 %}
+  <section style="margin-top: 4rem;">
+    <div class="divider"></div>
+    <h2>Writings</h2>
+    {% for post in site.posts %}
+    <ul>
+      <li>
+        <div class="title">
+          <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+        </div>
+      </li>
+    </ul> 
+    {% endfor %}
+{% endif %}
+  
+  </section>
